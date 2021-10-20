@@ -8,7 +8,13 @@ use App\Http\Controllers\Controller;
 class ProfileController extends Controller
 {
 
-    
+        //1つ目
+        public function add()
+        {
+        return view('admin.profile.create');
+        
+            
+        }
         //2つ目
         public function create()
         {
